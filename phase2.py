@@ -9,11 +9,6 @@ def Div(lst, low, high, c):
             return Div(lst, low, mid-1, c) + Div(lst, mid + 1, high, c)
 
 def peak(lst, c):
-    if lst == []:
-        return "list is empty"
-    elif len(lst) in [1, 2]:
-        return "No peak"
-    else:
         return Div(lst, 0, len(lst), c)
 
 
