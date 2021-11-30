@@ -1,4 +1,5 @@
 import np as numpy
+
 class matrix:
     def __init__(self, data, row, column):
         self.data=data
