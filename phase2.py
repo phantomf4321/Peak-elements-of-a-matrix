@@ -27,8 +27,6 @@ class matrix:
     def peak(lst, c):
         return Div(lst, 0, len(lst), c)
 
-
-
 r=int(input())
 c=int(input())
 d = np.zeros( (r+2, c+2) )
