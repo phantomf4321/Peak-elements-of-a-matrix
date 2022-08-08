@@ -23,7 +23,6 @@ int findPeakUtil(int arr[], int low,int high, int n)
     else
         return findPeakUtil(arr, (mid + 1), high, n);
 }
-
 // A wrapper over recursive function findPeakUtil()
 int findPeak(int arr[], int n)
 {
