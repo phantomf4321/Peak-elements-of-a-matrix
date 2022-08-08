@@ -30,7 +30,6 @@ public:
 
 	void check();
 	void print();
-
 };
 
 void matrix::make()
